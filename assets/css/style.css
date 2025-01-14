@@ -14,6 +14,7 @@
     --tobo-back: #dadee1;
     --tobo-nope: #ed655d;
     --tobo-yes: #87cfbe;
+    --tobo-white: #ffffff;
 }
 
 .logo {
@@ -25,4 +26,27 @@
     display: inline-block;
     font-size: 40px;
     font-weight: bolder;
+}
+
+
+.addtask {
+    display: inline-block;
+    border: 0.15rem solid var(--tobo-task);
+    border-radius: 0.3rem;
+    background-color: var(--tobo-task);
+    color: var(--tobo-white);
+    margin-right: 1rem;
+    margin-left: 3rem;
+    padding: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+
+.addselection {
+    display: inline-block;
+    border: 0.15rem solid var(--tobo-back);
+    border-radius: 0.3rem;
+    background-color: var(--tobo-white);
+    color: var(--tobo-back);
+    padding: 0.3rem;
+    margin-bottom: 0.1rem;
 }
