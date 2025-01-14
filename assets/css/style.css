@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --tobo-task: #47adf1;
+    --tobo-edit: #45abe9;
+    --tobo-goals: #9c72e4;
+    --tobo-recruiting: #64c0a8;
+    --tobo-mobile: #f29e33;
+    --tobo-website: #d863a0;
+    --tobo-sales: #b0c926;
+    --tobo-text: #454952;
+    --tobo-back: #dadee1;
+    --tobo-nope: #ed655d;
+    --tobo-yes: #87cfbe;
+}
+
+.logo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+}
