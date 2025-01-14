@@ -2,16 +2,24 @@
     margin: 0;
 }
 
-.box {
+body {
     background-color: var(--tobo-back);
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: var(--tobo-white);
 }
 
 .divisor {
     justify-content: center;
     align-items: center;
     background-color: var(--tobo-white);
-    padding-top: 3px;
+    padding-top: 1rem;
+    padding-right: 3rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
     margin-top: 3rem;
     border-radius: 0.3rem;
 }
@@ -73,11 +81,8 @@
     display: inline-block;
 }
 
-.annotation {
+.todolist {
     display: inline-block;
-    padding: 0.2rem;
-    color: var(--tobo-white);
-    font-size: 12px;
 }
 
 .nope {
@@ -88,41 +93,53 @@
     display: inline-block;
 }
 
-.todolist {
+.editorial {
     display: inline-block;
-}
-
-#editorial {
+    padding: 0.2rem;
+    font-size: 12px;
     border: 0.15rem solid var(--tobo-edit);
     background-color: var(--tobo-edit);
     border-radius: 0.8rem;
 }
 
-#goals {
+.goals {
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 12px;
     border: 0.15rem solid var(--tobo-goals);
     background-color: var(--tobo-goals);
     border-radius: 0.8rem;
 }
 
-#recruiting {
+.recruiting {
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 12px;
     border: 0.15rem solid var(--tobo-recruiting);
     background-color: var(--tobo-recruiting);
     border-radius: 0.8rem;
 }
 
-#mobile {
+.mobile {
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 12px;
     border: 0.15rem solid var(--tobo-mobile);
     background-color: var(--tobo-mobile);
     border-radius: 0.8rem;
 }
 
-#website {
+.website {
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 12px;
     border: 0.15rem solid var(--tobo-website);
     background-color: var(--tobo-website);
     border-radius: 0.8rem;
 }
 
-#sales {
+.sales {
+    display: inline-block;
     border: 0.15rem solid var(--tobo-sales);
     background-color: var(--tobo-sales);
     border-radius: 0.8rem;
