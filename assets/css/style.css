@@ -83,6 +83,7 @@ header {
 
 .todolist {
     display: inline-block;
+    margin: 0;
 }
 
 .nope {
