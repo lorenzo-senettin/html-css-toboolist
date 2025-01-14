@@ -59,19 +59,45 @@
     display: inline-block;
 }
 
+.annotation {
+    display: inline-block;
+    padding: 0.2rem;
+    color: var(--tobo-white);
+    font-size: 12px;
+}
+
+.nope {
+    color: var(--tobo-nope);
+    border: 0.15rem solid var(--tobo-nope);
+    padding: 0.1rem;
+    border-radius: 150%;
+    display: inline-block;
+}
 
 .todolist {
     display: inline-block;
 }
 
-.annotation {
-    display: inline-block;
-    padding: 0.2rem;
-    color: var(--tobo-white);
-}
-
 #editoril {
     border: 0.15rem solid var(--tobo-edit);
     background-color: var(--tobo-edit);
+    border-radius: 0.8rem;
+}
+
+#goals {
+    border: 0.15rem solid var(--tobo-goals);
+    background-color: var(--tobo-goals);
+    border-radius: 0.8rem;
+}
+
+#recruiting {
+    border: 0.15rem solid var(--tobo-recruiting);
+    background-color: var(--tobo-recruiting);
+    border-radius: 0.8rem;
+}
+
+#mobile {
+    border: 0.15rem solid var(--tobo-mobile);
+    background-color: var(--tobo-mobile);
     border-radius: 0.8rem;
 }
