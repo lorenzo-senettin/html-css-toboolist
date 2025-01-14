@@ -2,6 +2,20 @@
     margin: 0;
 }
 
+.box {
+    background-color: var(--tobo-back);
+}
+
+.divisor {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tobo-white);
+    padding-top: 3px;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    border-radius: 0.3rem;
+}
+
 :root {
     --tobo-task: #47adf1;
     --tobo-edit: #45abe9;
@@ -78,7 +92,7 @@
     display: inline-block;
 }
 
-#editoril {
+#editorial {
     border: 0.15rem solid var(--tobo-edit);
     background-color: var(--tobo-edit);
     border-radius: 0.8rem;
@@ -100,4 +114,22 @@
     border: 0.15rem solid var(--tobo-mobile);
     background-color: var(--tobo-mobile);
     border-radius: 0.8rem;
+}
+
+#website {
+    border: 0.15rem solid var(--tobo-website);
+    background-color: var(--tobo-website);
+    border-radius: 0.8rem;
+}
+
+#sales {
+    border: 0.15rem solid var(--tobo-sales);
+    background-color: var(--tobo-sales);
+    border-radius: 0.8rem;
+}
+
+.divisor {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
 }
