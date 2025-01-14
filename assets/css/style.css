@@ -24,7 +24,7 @@
 
 .title {
     display: inline-block;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
@@ -49,4 +49,29 @@
     color: var(--tobo-back);
     padding: 0.3rem;
     margin-bottom: 0.1rem;
+}
+
+.check {
+    color: var(--tobo-yes);
+    border: 0.15rem solid var(--tobo-yes);
+    padding: 0.1rem;
+    border-radius: 150%;
+    display: inline-block;
+}
+
+
+.todolist {
+    display: inline-block;
+}
+
+.annotation {
+    display: inline-block;
+    padding: 0.2rem;
+    color: var(--tobo-white);
+}
+
+#editoril {
+    border: 0.15rem solid var(--tobo-edit);
+    background-color: var(--tobo-edit);
+    border-radius: 0.8rem;
 }
